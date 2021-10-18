@@ -2,8 +2,8 @@ import React from "react";
 import { withRouter } from "react-router";
 import "./menu-item.styles.scss";
 
-// Destructuring props
 
+// Destructuring props
 function MenuItem({ title, imageUrl, size, history, match, linkUrl }) {
   console.log(match);
   return (
